@@ -1,6 +1,16 @@
 #!/usr/bin/env python
 
 import scapy.all as scapy
+import optparse
+
+
+def get_target():
+    parser = optparse.OptionParser()
+    parser.add_option("-t", "--target", dest="target", help="Target IP address or CIDR address.")
+    (input_options, arguments) = parser.parse_args()
+    if not input_options.target:
+        parser.error("[-] Please specify a target IP address or CIDR address. Use --help for more info")
+    return input_options
 
 
 def scan(ip):
@@ -24,4 +34,8 @@ def print_scan(clients_list):
         print(element["ip"] + tabs + element["mac"])
 
 
-print_scan(scan("192.168.124.2/24"))
+options = get_target()
+
+scan_target = scan(options.target)
+
+print_scan(scan_target)
