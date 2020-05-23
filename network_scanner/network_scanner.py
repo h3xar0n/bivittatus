@@ -27,11 +27,14 @@ def scan(ip):
 
 
 def print_scan(clients_list):
-    line = "\n-----------------------------------------"
-    tabs = "\t\t"
-    print("IP" + tabs + "\tMAC Address" + line)
-    for element in clients_list:
-        print(element["ip"] + tabs + element["mac"])
+    if clients_list:
+        line = "\n-----------------------------------------"
+        tabs = "\t\t"
+        print("IP" + tabs + "\tMAC Address" + line)
+        for element in clients_list:
+            print(element["ip"] + tabs + element["mac"])
+    else:
+        print("[-] Could not detect any addresses")
 
 
 options = get_target()
