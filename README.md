@@ -4,7 +4,7 @@
 
 This project is solely to help me better understand how offensive security tools work under the hood so that I can customize them in the future, instead of relying entirely on prefabricated tools. That being said, I have not tested these tools outside of networks and devices that I own, and cannot anticipate all of the consequences of using them on other systems. 
 
-Although modified and greatly expanded, these programs are mostly derived from those in [Zaid Sabih's course on Udemy](https://www.udemy.com/course/learn-python-and-ethical-hacking-from-scratch/), as well as from the books [Black Hat Python](https://www.amazon.com/Black-Hat-Python-Programming-Pentesters/dp/1593275900) and [Violent Python](https://www.amazon.com/Violent-Python-Cookbook-Penetration-Engineers-ebook/dp/B00ABY67JS/ref=sr_1_1?dchild=1&keywords=violent+python&qid=1590676538&s=books&sr=1-1).
+Although modified and greatly expanded, these programs are mostly derived from the ones in [Zaid Sabih's awesome course on Udemy](https://www.udemy.com/course/learn-python-and-ethical-hacking-from-scratch/), as well as from the books [Black Hat Python](https://www.amazon.com/Black-Hat-Python-Programming-Pentesters/dp/1593275900) and [Violent Python](https://www.amazon.com/Violent-Python-Cookbook-Penetration-Engineers-ebook/dp/B00ABY67JS/ref=sr_1_1?dchild=1&keywords=violent+python&qid=1590676538&s=books&sr=1-1).
 
 ![Python eating alligator](/python.jpg)
 *X-ray of a Burmese Python (Python bivittatus) digesting an alligator*
